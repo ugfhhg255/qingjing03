@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/dialog_fan_pxeed.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1500px"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/light_gray_blue"
+    android:padding="16px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="座椅按摩"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_background"
+        android:layout_gravity="center"
+        android:padding="16px"
+        android:layout_marginTop="30px">
+        <TextView
+            android:id="@+id/bolang"
+            android:layout_width="260px"
+            android:layout_height="200px"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:background="@drawable/rounded_background"
+            android:text="波浪"/>
+
+        <TextView
+            android:id="@+id/maobu"
+            android:layout_width="260px"
+            android:layout_height="200px"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_background"
+
+            android:textSize="40px"
+            android:text="猫步"/>
+        <TextView
+            android:id="@+id/jiaocha"
+            android:layout_width="260px"
+            android:layout_height="200px"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:background="@drawable/rounded_background"
+
+            android:text="交叉"/>
+        <TextView
+            android:id="@+id/shuhuan"
+            android:layout_width="260px"
+            android:layout_height="200px"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:background="@drawable/rounded_background"
+
+            android:text="舒缓"/>
+        <TextView
+            android:id="@+id/tiaoyue"
+            android:layout_width="260px"
+            android:layout_height="200px"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:background="@drawable/rounded_background"
+
+            android:text="跳跃"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="20px"
+        android:layout_marginTop="30px">
+        <TextView
+            android:id="@+id/low"
+            android:layout_width="400px"
+            android:layout_height="90px"
+            android:gravity="center"
+            android:layout_marginLeft="60px"
+            android:padding="16px"
+            android:layout_marginRight="60px"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_background"
+
+            android:textSize="40px"
+            android:text="低"/>
+
+        <TextView
+            android:id="@+id/medium"
+            android:layout_width="400px"
+            android:layout_height="90px"
+            android:gravity="center"
+            android:padding="16px"
+            android:layout_marginRight="60px"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_background"
+
+            android:textSize="40px"
+            android:text="中"/>
+        <TextView
+            android:id="@+id/high"
+            android:layout_width="400px"
+            android:layout_height="90px"
+            android:gravity="center"
+            android:padding="16px"
+            android:layout_marginRight="60px"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_background"
+
+            android:textSize="40px"
+            android:text="高"/>
+    </LinearLayout>
+
+
+</LinearLayout>

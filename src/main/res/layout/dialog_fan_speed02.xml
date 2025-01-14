@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/dialog_fan_pxeed.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1700px"
+    android:layout_height="600px"
+    android:orientation="vertical"
+    android:animateLayoutChanges="false"
+    android:layoutAnimation="@null"
+    android:layout_gravity="center"
+    android:background="@color/light_gray_blue"
+    android:padding="5px"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="空调风量"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        android:layout_marginTop="70px"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="90px"
+        >
+
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginTop="3px"
+            android:layout_marginRight="10px"
+            android:background="@drawable/kongtiaofengliang34fw"/>
+
+        <SeekBar
+            android:id="@+id/seekBarKongtiao23"
+            android:layout_width="1400px"
+            android:layout_height="wrap_content"
+            android:max="9"
+            android:tickMark="@drawable/kongtiaofengliangdian"
+            android:progress="1"
+            android:progressDrawable="@drawable/seekbar02_huadong"
+            android:thumb="@drawable/huakuai03fdfw"
+            android:splitTrack="false"/>
+
+
+        <TextView
+            android:id="@+id/kongtiaofengl03Text"
+            android:layout_width="40px"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:textColor="@color/black"
+            android:paddingTop="2px"
+            android:layout_marginLeft="10px"
+            android:text="3"/>
+
+
+    </LinearLayout>
+</LinearLayout>

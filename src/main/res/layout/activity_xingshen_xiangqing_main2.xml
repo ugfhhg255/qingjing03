@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E9ECF3"
+    android:orientation="vertical"
+    tools:context=".XiaoQi_xiangqing">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="120px"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/xingshenfanhui"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fanhui" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="醒神模式"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="10px"
+            android:textSize="35px"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/xingshenbaocun"
+            android:layout_width="50px"
+            android:layout_marginTop="40px"
+            android:layout_height="50px"
+            android:layout_marginLeft="1900px"
+            android:background="@drawable/xingshenbaocun34f">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/xingshenshuaxin"
+            android:layout_width="50px"
+            android:layout_marginTop="40px"
+            android:layout_height="50px"
+            android:layout_marginLeft="100px"
+            android:background="@drawable/xingshenshuaxin09hd">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="开启条件"
+            android:layout_marginTop="20px"
+            android:textColor="@color/black"
+            android:layout_marginLeft="200px"
+            android:textSize="30px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="200px"
+        android:orientation="horizontal"
+        android:layout_marginTop="20px"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="3px"
+            android:layout_marginRight="60px"
+            android:layout_width="wrap_content"
+            android:background="@drawable/dianyuan"
+            android:layout_height="wrap_content">
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电源模式:ON/RUNNING"
+            android:textColor="@color/black"
+            android:textSize="25px"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="功能设置"
+            android:layout_marginTop="20px"
+            android:textColor="@color/black"
+            android:layout_marginLeft="200px"
+            android:textSize="30px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40px"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="提神阶段"
+            android:layout_marginTop="20px"
+            android:textColor="@color/black"
+            android:layout_marginLeft="200px"
+            android:textSize="25px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:columnCount="5"
+        android:padding="12px"
+        android:rowCount="1">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/kongtiaochufengkou35fee">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="空调出风口 \n 吹面"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/ac25dw">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="72px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="空调AC\n开启"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/kongtiaofengliang">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="空调风速 \n 提升2档"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:id="@+id/xingshenkongtiaowendu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="10px"
+                android:src="@drawable/kongtiaowendu123sd">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10px"
+                android:gravity="center"
+                android:text="空调温度\n 21℃"
+
+                android:textColor="@android:color/black"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:id="@+id/xingshenxiangfen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/xiangfenmuyushiguang">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="香氛沐林时光\n清香"
+
+                android:textColor="@android:color/black"
+                android:textSize="20px" />
+        </FrameLayout>
+
+    </GridLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="活力阶段"
+            android:textColor="@color/black"
+            android:textSize="25px"
+            android:layout_marginLeft="230px"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="220px"
+        android:layout_marginTop="20px"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:id="@+id/zuoyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/shengyinbofang98f">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="120px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40px"
+                android:gravity="center"
+                android:text="声音播放头枕"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:id="@+id/zhumian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/jingyinmoshi343">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="音效开启\n安静"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="1px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:id="@+id/xingshenmeitiyinliang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/meitiyinliang945">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:id="@+id/meitiyinliangziti"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="媒体音量\n 10"
+
+                android:textColor="@android:color/black"
+                android:textSize="20px" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="1px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:id="@+id/zhujiazuoyianmo346"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/zhujiazuoyianmo345">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="120px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="30px"
+                android:gravity="center"
+                android:text="主驾座椅按摩"
+
+                android:textColor="@android:color/black"
+                android:textSize="20px" />
+            <!-- 选择框 -->
+            <CheckBox
+                android:id="@+id/checkbox01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8px"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:layout_marginBottom="8px"
+                android:text="" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="300px"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

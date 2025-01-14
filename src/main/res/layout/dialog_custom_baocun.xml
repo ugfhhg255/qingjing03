@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000px"
+    android:layout_height="500px"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:layout_marginTop="20px"
+        android:textColor="@color/black"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否保存设置内容？"
+        android:layout_marginTop="70px"
+
+        android:layout_gravity="center"
+        android:textSize="30px"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_marginBottom="20px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70px"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/queding73ds"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/cancelButton"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/quxiao4l5wd"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10px" />
+    </LinearLayout>
+</LinearLayout>

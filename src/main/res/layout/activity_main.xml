@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="120px"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="推荐"
+            android:layout_marginTop="20px"
+            android:gravity="left"
+            android:layout_marginLeft="110px"
+            android:textColor="#000000"
+            android:padding="20px"
+            android:textSize="50px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的"
+            android:layout_marginTop="20px"
+            android:gravity="left"
+            android:layout_marginLeft="110px"
+            android:textColor="#000000"
+            android:padding="20px"
+            android:textSize="50px" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70px"
+        android:layout_marginLeft="100px"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_height="wrap_content">
+
+            <!-- 右下角文字 -->
+
+
+            <!-- 底部左侧按钮 -->
+
+            <ImageButton
+                android:id="@+id/xiaoqi_button"
+                android:layout_width="700px"
+                android:layout_height="397px"
+                android:layout_marginLeft="20px"
+                android:clipToOutline="true"
+                android:background="@color/white"
+                android:contentDescription="AQS模式"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a0106" />
+
+            <TextView
+                android:layout_width="168px"
+                android:layout_height="56px"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8px"
+                android:layout_marginBottom="20px"
+                android:text="AQS模式"
+                android:textColor="@android:color/white"
+                android:textSize="35px" />
+
+            <Button
+                android:id="@+id/aqsbutton"
+                android:layout_width="159px"
+                android:layout_height="65px"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="39px"
+                android:layout_marginBottom="20px"
+                android:background="@drawable/kaiqi02"
+                android:minWidth="48px"
+                android:text="开启"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100px"
+
+            android:layout_height="wrap_content">
+
+            <!-- 右下角文字 -->
+
+
+            <!-- 底部左侧按钮 -->
+            <ImageButton
+                android:layout_marginLeft="20px"
+                android:id="@+id/xingshenimage"
+                android:background="@color/white"
+                android:padding="0dp"
+                android:clipToOutline="true"
+                android:layout_width="700px"
+                android:layout_height="397px"
+                android:contentDescription="AQS模式"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a0206" />
+
+            <TextView
+                android:layout_width="168px"
+                android:layout_height="56px"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8px"
+                android:layout_marginBottom="20px"
+                android:text="醒神模式"
+                android:textColor="@android:color/white"
+                android:textSize="35px" />
+
+            <Button
+                android:id="@+id/xingshenbutton"
+                android:layout_width="159px"
+                android:layout_height="65px"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="39px"
+                android:layout_marginBottom="20px"
+                android:background="@drawable/kaiqi02"
+                android:minWidth="48px"
+                android:text="开启"
+                android:textColor="@android:color/white"
+                android:textSize="30px"
+                />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100px"
+
+            android:layout_height="wrap_content">
+
+            <!-- 右下角文字 -->
+
+
+            <!-- 底部左侧按钮 -->
+            <ImageButton
+                android:layout_marginLeft="10px"
+                android:id="@+id/xiaoqi_button03"
+                android:layout_width="700px"
+                android:background="@color/white"
+                android:padding="0dp"
+                android:clipToOutline="true"
+                android:layout_height="397px"
+                android:contentDescription="AQS模式"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a0306" />
+
+            <TextView
+                android:layout_width="168px"
+                android:layout_height="56px"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8px"
+                android:layout_marginBottom="20px"
+                android:text="小憩模式"
+                android:textColor="@android:color/white"
+                android:textSize="35px" />
+
+            <Button
+                android:id="@+id/start_button03"
+                android:layout_width="159px"
+                android:layout_height="65px"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="39px"
+                android:layout_marginBottom="20px"
+                android:background="@drawable/kaiqi02"
+                android:minWidth="48px"
+                android:text="开启"
+                android:textColor="@android:color/white"
+                android:textSize="30px"
+                />
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

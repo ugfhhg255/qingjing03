@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20px"
+    android:background="@drawable/asenlin"
+    tools:context=".napModeActivity"
+    >
+    <ImageView
+        android:id="@+id/shezhi02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shezhi02"
+        android:layout_gravity="top|right" />
+
+    <TextView
+        android:id="@+id/shijianxianshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:32"
+        android:layout_marginTop="200px"
+        android:textSize="200px"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/napshuimian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10分钟后结束小憩模式"
+        android:textSize="30px"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/xiping044"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200px"
+            android:text="暗屏"
+            android:textColor="@color/black"
+            android:textSize="50px"
+            android:background="@drawable/xiping03"
+            android:layout_marginRight="200px"
+             />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="200px"
+            android:layout_height="wrap_content"
+            android:text="结束"
+            android:textSize="50px"
+            android:background="@drawable/xiping03"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10px" />
+    </LinearLayout>
+</LinearLayout>

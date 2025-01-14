@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- 添加这行权限声明 -->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QingJing01"
+        tools:targetApi="31">
+        <activity
+            android:name=".abc"
+            android:exported="false" />
+        <activity
+            android:name=".aqsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XingshenXiangqingMainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".dia_seat_position"
+            android:exported="false" />
+        <activity
+            android:name=".Yushe"
+            android:exported="false" />
+        <activity
+            android:name=".napModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XiaoQi_xiangqing"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

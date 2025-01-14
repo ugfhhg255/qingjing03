@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800px"
+    android:layout_height="400px"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/light_gray_blue"
+    android:padding="20px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小憩模式"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="10px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请勿在密闭空间使用小憩模式。\n 模式开启会关闭窗户，调节座椅，请注意空气 \n 流通，以及后排是否有人或物品，防止挤压。\n 当车外温度超28℃,请开启空调A/C;"
+        android:layout_gravity="center"
+        android:textSize="25px"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_marginTop="30px"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/jixu34iidw"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/cancelButton"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/quxiaoaaaa"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="20px" />
+    </LinearLayout>
+</LinearLayout>

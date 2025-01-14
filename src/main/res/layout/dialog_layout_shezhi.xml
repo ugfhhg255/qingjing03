@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1700px"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/light_gray_blue"
+    android:padding="16px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音量"
+        android:textColor="@color/black"
+        android:textSize="35px"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="40px"
+        android:layout_marginBottom="8px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10px"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yinliang56fd"/>
+
+        <SeekBar
+            android:layout_marginLeft="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="20"
+            android:progressDrawable="@drawable/progress_drawable"
+            android:thumb="@drawable/huakuai35ghe"
+             />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="亮度"
+        android:textColor="@color/black"
+        android:textSize="35px"
+        android:layout_marginTop="25px"
+        android:layout_marginLeft="40px"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10px"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/liangdu56fggr"/>
+
+        <SeekBar
+            android:id="@+id/shezhiliangdu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:progress="10"
+            android:progressDrawable="@drawable/progress_drawable"
+            android:thumb="@drawable/huakuai35ghe"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="场景"
+        android:textColor="@color/black"
+        android:textSize="35px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="20px" />
+
+    <LinearLayout
+        android:layout_width="1500px"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_height="wrap_content">
+
+        <ImageView
+    android:id="@+id/yutianaaa"
+    android:layout_width="114px"
+    android:layout_height="113px"
+    android:layout_marginLeft="390px"
+    android:layout_marginTop="30px"
+    android:background="@drawable/rounded_rain_background"
+    android:clipToOutline="true" />
+
+        <ImageView
+            android:id="@+id/xiliuaaa"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="30px"
+            android:foreground="@drawable/image_selector"
+            android:background="@drawable/qingjing02" />
+
+        <ImageView
+            android:id="@+id/haitanaaa"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="30px"
+            android:background="@drawable/qingjing03" />
+
+        <ImageView
+            android:id="@+id/senlinaaa"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="30px"
+            android:background="@drawable/qingjing04" />
+
+        <ImageView
+            android:id="@+id/xiayeaaa"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="30px"
+            android:background="@drawable/qingjing05" />
+
+        <ImageView
+            android:id="@+id/gaoyuanaaa"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="30px"
+            android:background="@drawable/qingjing06" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="10px"
+            android:textSize="30px"
+            android:layout_marginRight="40px"
+            android:text="雨天"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="溪流"
+            android:textSize="30px"
+
+            android:textColor="@color/black"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="30px"
+
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="海滩"
+            android:textSize="30px"
+
+            android:textColor="@color/black"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="40px"
+
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="森林"
+            android:textSize="30px"
+
+            android:textColor="@color/black"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="20px"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="夏夜"
+            android:textSize="30px"
+
+            android:textColor="@color/black"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="70px"
+            android:layout_marginRight="10px"
+
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="高原"
+            android:textSize="30px"
+
+            android:textColor="@color/black"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="50px"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <!-- Add more UI elements as needed -->
+
+</LinearLayout>

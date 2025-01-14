@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 设置背景颜色，根据需要修改颜色 -->
+    <solid android:color="@color/white"/>
+
+    <!-- 如果需要边框，可以添加以下代码 -->
+    <!--
+    <stroke
+        android:width="2dp"
+        android:color="#YOUR_COLOR"/>
+    -->
+</shape>

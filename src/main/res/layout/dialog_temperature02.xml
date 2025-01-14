@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/dialog_temperature.xml -->
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600px"
+    android:orientation="vertical"
+    android:background="#F1F3F6"
+    android:layout_gravity="center"
+    android:padding="16px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="空调温度"
+        android:textSize="40px"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10px"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="900px"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_rectangle_bg"
+        android:padding="10px"
+        android:layout_marginTop="120px">
+
+        <TextView
+            android:id="@+id/shangsheng02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="上升 2°C"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/xiajiang02"
+            android:layout_marginLeft="200px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="下降 2°C"
+            android:textSize="40px"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8px"/>
+
+
+        <TextView
+            android:id="@+id/kongtiaowenduzidingyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义"
+            android:layout_marginLeft="160px"
+            android:textColor="@color/black"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="8px"
+            android:textSize="40px"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_rectangle_bg"
+        android:layout_gravity="center"
+        android:padding="16px"
+        android:layout_marginTop="70px"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/wendujian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginRight="10px"
+            android:textColor="@color/black"
+            android:textSize="45px"
+            />
+
+        <com.example.qingjing01.TemperatureSliderView
+            android:id="@+id/temperatureSlider"
+            android:layout_width="700px"
+            android:layout_marginTop="20px"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+        <TextView
+            android:id="@+id/wendujia01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="20px"
+            android:textColor="@color/black"
+            android:textSize="45px"
+            />
+
+    </LinearLayout>
+</LinearLayout>

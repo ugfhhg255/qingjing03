@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000px"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/xingshenfanhui34"
+    android:layout_height="400px">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="30px"
+        android:layout_gravity="center"
+        android:textSize="50px"
+        android:text="提示"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="60px"
+        android:layout_gravity="center"
+        android:textSize="30px"
+        android:text="尚未保存已编辑内容，是否保存?"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/xingshenfanhuiqueding"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="40px"
+            android:background="@drawable/queding73ds"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/xingshenfanhuiquxiao"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="50px"
+            android:background="@drawable/quxiao4l5wd"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

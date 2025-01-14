@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15dp" />  <!-- 由于图片较小，这里使用稍小的圆角半径 -->
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/pic_rain02"
+            android:gravity="fill" />
+    </item>
+</layer-list>

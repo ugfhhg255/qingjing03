@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1300px"
+    android:layout_height="600px"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20px"
+        android:background="@drawable/shuimianbeijing"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_marginTop="100px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="助眠时间"
+            android:textSize="70px"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40px" />
+
+        <LinearLayout
+            android:layout_marginTop="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="10px">
+
+            <!-- Add buttons or text views for each time option -->
+            <TextView
+                android:id="@+id/zhumian01"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="70px"
+                android:gravity="center"
+                android:background="@color/white"
+                android:textColor="@android:color/black"
+                android:minWidth="100px"
+                android:minHeight="60px"
+                android:padding="10px"/>
+
+            <TextView
+                android:id="@+id/zhumian02"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:background="@color/white"
+                android:textSize="70px"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/zhumian03"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                android:background="@color/white"
+                android:textSize="70px"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/zhumianquan"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:background="@color/white"
+                android:textSize="70px"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/zhumianquan05"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:background="@color/white"
+                android:textSize="70px"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

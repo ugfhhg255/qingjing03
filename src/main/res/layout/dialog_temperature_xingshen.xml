@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/dialog_temperature.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F1F3F6"
+    android:layout_gravity="center"
+    android:padding="16px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="空调温度"
+        android:textSize="40px"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50px"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="40px"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="16px"
+        android:layout_marginTop="30px"
+        >
+
+
+        <TextView
+            android:id="@+id/wendujian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="—"
+            android:gravity="left"
+            android:layout_marginRight="350px"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="21℃"-->
+<!--            android:layout_marginRight="20px"-->
+<!--            android:layout_marginLeft="10px"-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="40px"-->
+<!--            />-->
+        <TextView
+            android:id="@+id/wenduxianshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22℃"
+            android:layout_marginRight="120px"
+            android:layout_marginLeft="20px"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="23℃"-->
+<!--            android:layout_marginRight="20px"-->
+<!--            android:layout_marginLeft="30px"-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="40px"-->
+<!--            />-->
+
+        <TextView
+            android:id="@+id/wendujia01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_marginLeft="270px"
+            android:layout_marginRight="20px"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFF2F6"
+    android:layout_margin="20px">
+    <TextView
+        android:layout_width="1128px"
+        android:layout_height="160px"
+        android:text="座椅坐姿"
+        android:textSize="50px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20px" />
+
+    <RelativeLayout
+        android:layout_width="955px"
+        android:layout_height="645px"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="50px">
+
+
+        <ImageView
+            android:id="@+id/imageView_seat"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nap_zuo_yi" />
+
+        <ImageView
+            android:id="@+id/imageView_seat_right"
+            android:layout_width="20px"
+            android:layout_height="238px"
+            android:layout_toRightOf="@+id/imageView_seat"
+            android:layout_marginTop="120px"
+            android:layout_marginLeft="40px"
+            android:src="@drawable/zhixian934d" />
+
+        <ImageView
+            android:id="@+id/arrow_right"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_above="@+id/imageView_seat_left"
+            android:layout_marginRight="-243px"
+            android:layout_marginBottom="-125px"
+            android:layout_toLeftOf="@+id/imageView_seat_left"
+            android:scaleX="1.3"
+            android:scaleY="1.3"
+            android:src="@drawable/nap_seat_xs" />
+        <ImageView
+            android:id="@+id/arrow_left"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_toLeftOf="@+id/imageView_seat_left"
+            android:layout_marginTop="340px"
+            android:layout_marginRight="-15px"
+            android:src="@drawable/nap_seat_vx" />
+        <TextView
+            android:id="@+id/textView_seat_angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="靠背角度60%"
+            android:layout_toLeftOf="@+id/imageView_seat_left"
+            android:layout_marginTop="100px"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/textView_seat_angle_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginRight="40px"
+            android:layout_toLeftOf="@+id/imageView_seat_left"
+            android:layout_below="@+id/textView_seat_angle"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+        <ImageView
+            android:id="@+id/imageView_seat_left"
+            android:layout_width="203px"
+            android:layout_height="236px"
+            android:layout_marginLeft="-20px"
+            android:layout_marginTop="100px"
+            android:layout_marginRight="-208px"
+            android:layout_toLeftOf="@+id/imageView_seat"
+            android:src="@drawable/wanxian452d" />
+        <ImageView
+            android:id="@+id/arrow_top"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_above="@+id/imageView_seat_right"
+            android:layout_toRightOf="@+id/imageView_seat"
+            android:src="@drawable/nap_seat_vs"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="-130px" />
+        <ImageView
+            android:id="@+id/arrow_bottom"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_below="@+id/imageView_seat_right"
+            android:layout_toRightOf="@+id/imageView_seat"
+            android:src="@drawable/nap_seat_vx"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="-130px" />
+        <TextView
+            android:id="@+id/textView_seat_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="座椅高度20%"
+            android:textColor="@color/black"
+            android:layout_below="@+id/imageView_seat_right_down"
+            android:layout_toRightOf="@+id/imageView_seat"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="130px"
+            android:textSize="28sp"/>
+        <TextView
+            android:id="@+id/textView_seat_height_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_below="@+id/textView_seat_height"
+            android:layout_toRightOf="@+id/imageView_seat"
+            android:layout_marginLeft="50px"
+            android:textSize="28sp"/>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="400px"
+            android:layout_height="60px"
+            android:layout_below="@+id/imageView_seat"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/left_arrow"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:src="@drawable/nap_seat_oz" />
+
+            <ImageView
+                android:layout_width="270px"
+                android:layout_height="20px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20px"
+                android:src="@drawable/hengxian34ds" />
+
+            <ImageView
+                android:id="@+id/right_arrow"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="center"
+                android:src="@drawable/nap_seat_or" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView_seat_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="座椅位置30%"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/textView_seat_position_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:layout_marginLeft="10px"
+            android:layout_toRightOf="@+id/textView_seat_position"
+            android:layout_below="@+id/linearLayout" />
+    </RelativeLayout>
+
+</LinearLayout>

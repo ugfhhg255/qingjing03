@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基本颜色 -->
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="qblue">#4A90E2</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="cyan">#00FFFF</color>
+    <!-- 在 colors.xml 中定义 -->
+    <color name="light_gray_blue">#F5F6FA</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="semi_transparent_gray">#80BEBEBE</color> <!-- 新增的半透明灰色 -->
+
+    <!-- 灰色系 -->
+    <color name="gray">#808080</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- 其他颜色 -->
+    <color name="orange">#FFA500</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="teal">#008080</color>
+    <color name="indigo">#4B0082</color>
+    <color name="violet">#EE82EE</color>
+    <color name="lime">#00FF00</color>
+    <color name="gold">#FFD700</color>
+    <color name="silver">#C0C0C0</color>
+
+    <!-- 透明度颜色 -->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="semi_transparent">#80FF0000</color>
+
+    <!-- 渐变色 -->
+    <color name="gradient_start">#6A11C7</color>
+    <color name="gradient_end">#2575FC</color>
+</resources>

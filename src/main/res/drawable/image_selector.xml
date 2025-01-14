@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="8px" android:color="@color/qblue" />
+            <padding android:left="2px" android:top="2px" android:right="2px" android:bottom="2px" />
+        </shape>
+    </item>
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <padding android:left="8px" android:top="2px" android:right="2px" android:bottom="2px" />
+        </shape>
+    </item>
+</selector>

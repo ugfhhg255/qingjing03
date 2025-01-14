@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9ECF3"
+    tools:context=".XiaoQi_xiangqing">
+
+    <LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="130px"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/aqsfanhui"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fanhui" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="AQS模式"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20px"
+            android:textSize="35px"
+            android:layout_marginTop="30px"
+
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/aqsbaocun"
+
+            android:layout_marginLeft="1900px"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="40px"
+            android:background="@drawable/xingshenbaocun34f">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/aqschongzhi"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="40px"
+
+            android:background="@drawable/xingshenshuaxin09hd">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="开启条件"
+            android:layout_marginTop="20px"
+            android:textColor="@color/black"
+            android:layout_marginLeft="200px"
+            android:textSize="20px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="200px"
+        android:orientation="horizontal"
+        android:layout_marginTop="20px"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="4px"
+            android:layout_marginRight="30px"
+            android:layout_width="wrap_content"
+            android:background="@drawable/dianyuan"
+            android:layout_height="wrap_content">
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电源模式:ON/RUNNING"
+            android:textColor="@color/black"
+            android:textSize="25px"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="自助运行条件"
+            android:layout_marginTop="20px"
+            android:textColor="@color/black"
+            android:layout_marginLeft="200px"
+            android:textSize="20px"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/aqsanniuaaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="50px"
+            android:background="@drawable/anniuaaa"></ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40px"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="满足以下条件即可运行"
+            android:layout_marginTop="20px"
+            android:textColor="@color/black"
+            android:layout_marginLeft="180px"
+            android:textSize="20px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="30px"
+        android:columnCount="1"
+        android:padding="16px"
+        android:rowCount="1">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/kongqizhiliangcha23">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40px"
+                android:gravity="center"
+                android:text="空气质量差"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="运行功能"
+        android:textSize="30px"
+        android:layout_marginLeft="210px"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="220px"
+        android:layout_marginTop="40px"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/chechuang0222">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="车窗 \n关闭"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/tianchuangguanbi">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="天窗 \n关闭"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/beijingxiaoqi">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/kongqijinghua34tf">
+
+            </ImageView>
+
+
+            <!-- 文字 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:text="空气净化 \n开启"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="100px"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

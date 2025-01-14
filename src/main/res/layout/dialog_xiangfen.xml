@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/dialog_fan_pxeed.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/xiangfenbeijing239hd"
+    android:padding="16px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="香氛"
+        android:textColor="@color/white"
+        android:textSize="50px"
+        android:layout_marginTop="50px"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_background"
+        android:layout_gravity="center"
+
+        android:padding="16px"
+        android:layout_marginTop="50px">
+        <TextView
+            android:id="@+id/danxiang"
+            android:layout_width="267px"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40px"
+            android:background="@drawable/xiangfen_select"
+            android:text="淡香"/>
+
+        <TextView
+            android:id="@+id/qingxiang"
+            android:layout_width="267px"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40px"
+            android:background="@drawable/xiangfen_select"
+            android:layout_marginLeft="30px"
+            android:text="清香"/>
+        <TextView
+            android:id="@+id/nongxiang"
+            android:layout_width="267px"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40px"
+            android:background="@drawable/xiangfen_select"
+            android:layout_marginLeft="30px"
+
+            android:text="浓香"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50px">
+        <TextView
+            android:id="@+id/heiseyouh"
+            android:layout_width="400px"
+            android:layout_height="250px"
+            android:gravity="left|top"
+            android:layout_marginLeft="60px"
+            android:padding="16px"
+            android:layout_marginRight="60px"
+            android:textColor="@color/white"
+            android:background="@drawable/xiangfen_select"
+
+            android:textSize="40px"
+            android:text="黑色诱惑\n馥郁芬香的奢华"/>
+
+        <TextView
+            android:id="@+id/fengqilian"
+            android:layout_width="400px"
+            android:layout_height="250px"
+            android:gravity="left|top"
+            android:padding="16px"
+            android:layout_marginRight="60px"
+            android:textColor="@color/white"
+            android:background="@drawable/xiangfen_select"
+
+
+            android:textSize="40px"
+            android:text="风起旖旎\n馥郁芬香的奢华 "/>
+        <TextView
+            android:id="@+id/mulinshiguang"
+            android:layout_width="400px"
+            android:layout_height="250px"
+            android:gravity="left|top"
+            android:padding="16px"
+            android:layout_marginRight="60px"
+            android:textColor="@color/white"
+            android:background="@drawable/xiangfen_select"
+
+
+            android:textSize="40px"
+            android:text="沐林时光\n馥郁芬香的奢华"/>
+    </LinearLayout>
+
+
+</LinearLayout>
