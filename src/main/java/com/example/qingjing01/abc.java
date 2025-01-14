@@ -23,7 +23,7 @@ public class abc extends AppCompatActivity {
             public void onTemperatureChanged(float temperature) {
                 // 处理温度改变事件
                 Toast.makeText(abc.this,
-                    "温度设置为: " + (int)temperature + "°C",
+                    "温度设置为1: " + (int)temperature + "°C",
                     Toast.LENGTH_SHORT).show();
             }
         });
